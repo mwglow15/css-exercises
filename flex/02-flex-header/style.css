@@ -20,7 +20,9 @@ ul {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 a {
@@ -32,12 +34,14 @@ a {
 }
 
 .left-links ul{
+  width: 225px;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .right-links ul{
+  width: 225px;
   display: flex;
   justify-content: space-between;
 }
