@@ -34,14 +34,9 @@
 }
 
 .menu {
-  justify-self: end;
 }
 
 .menu ul {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
 }
 
 .menu ul,
@@ -51,11 +46,6 @@
 
 .sidebar {
   background-color: #FF7755;
-  grid-column: 1/2;
-  grid-row: 2/4;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 50px;
 }
 
 .sidebar .photo {
@@ -66,8 +56,6 @@
   border-radius: 10px;
 }
 
-.photo  {
-}
 
 .sidebar .side-content {
   background-color: white;
@@ -78,15 +66,9 @@
 
 .nav {
   background-color: #FF7755;
-  grid-column: 2/3;
-  grid-row: 2/3;
-
 }
 
 .nav ul {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
@@ -139,5 +121,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
